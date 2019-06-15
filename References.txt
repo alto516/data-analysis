@@ -1,0 +1,9 @@
+Reference 
+1. https://docs.scipy.org/doc/numpy/reference/generated/numpy.around.html?highlight=around#numpy.around
+2. https://stackoverflow.com/questions/53403318/make-datetime-series-from-separate-year-month-and-date-columns-in-pandas/53403472#53403472
+3. https://stackoverflow.com/questions/47227010/python-to-date-wrong-values
+4. https://stackoverflow.com/questions/52133164/pandas-how-to-plot-the-imdb-movie-total-budget-versus-the-separate-genre-in-pan
+5. : https://stackoverflow.com/questions/49561140/keyerror-while-trying-to-plot-a-pandas-pivot-table
+6. http://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.reset_index.html
+7. https://stackoverflow.com/questions/42854598/pandas-dataframe-set-index-with-inplace-true-returns-a-nonetype-why
+8. https://stackoverflow.com/questions/42877747/add-a-label-to-y-axis-to-show-the-value-of-y-for-a-horizontal-line-in-matplotlib
