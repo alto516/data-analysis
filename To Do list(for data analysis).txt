@@ -1,0 +1,43 @@
+[분석하기 전에 취할 수있는 몇 가지 단계]
+
+데이터 논쟁은 데이터를 정리하고 쉽게 분석 할 수있는 상태로 변환하는 것을 목표로합니다. 청소되지 않은 데이터가 있으면 분석이 무효화되거나 부정확 한 결과가 제공 될 수 있습니다. 이들은 분석하기 전에 취할 수있는 몇 가지 단계입니다.
+
+1.데이터 세트에서 누락 된 값 식별
+유용한 문서 :
+	pandas.isnull.
+	pandas.DataFrame.info.
+2. 누락 된 값으로 무엇을 할 것인지 결정하십시오.
+유용한 문서 :
+	Dropna 함수는 누락 된 값이있는 행을 삭제합니다.
+	Fillna는 모든 누락 된 값에 대해 기능합니다.
+	pandas.DataFrame.drop - 전체 열을 삭제합니다.
+3. 분석과 관련된 필드를 식별하고 분석에 유용하지 않은 필드를 제거하십시오.
+4. 적절한 데이터 유형이없는 데이터 필드를 식별하고 이러한 열에 대해 더 나은 데이터 유형을 결정하십시오.
+5. 데이터 변경이 적용되기 전과 후에 데이터를 확인하여 변경이 완료되었는지 확인하십시오.
+6. 이 블로그에서 논쟁하는 데이터의 목표에 대해 읽어보십시오.
+7. 데이터 집합에서 누락 된 값을 처리하는 방법.
+8. 분석에 유용하지 않은 컬럼을 식별하고 이를 제거하는 것을 고려하십시오.
+9. 분석에 사용될 데이터를 통합하기 위해 분석에 사용될 모든 열을 병합하십시오.(join, merge)
+
+
+
+
+
+Data Wrangling is aimed at cleaning the data and also transforming it into a state which can be easily analyzed. Note that, having uncleaned data could invalidate the analysis or provide inaccurate results. These are a few steps to take before analysis.
+
+Identify missing values in the dataset
+Helpful documentation:
+pandas.isnull.
+pandas.DataFrame.info.
+Decide what to do with missing values
+Helpful documentation:
+Dropna function to drop any rows with missing values.
+Fillna function to all missing values.
+pandas.DataFrame.drop to drop the whole column.
+Identify fields which are relevant to the analysis and eliminate any fields that will not be useful in the analyses.
+Identify data fields which do not have proper data types and decide better data types for these columns.
+Make sure to check the data before and after the data wrangling is applied to make sure any changes have been done.
+Read about the goals of data wrangling in this blog.
+How to handle missing values in a dataset.
+Identify columns that are not useful to the analysis and consider dropping them.
+Merge all columns that will be used in the analysis so as to consolidate the data for the analysis.
